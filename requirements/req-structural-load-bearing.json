@@ -1,0 +1,26 @@
+{
+  "$schema": "https://idscomposer.io/schema/v1/requirement.json",
+  "id": "req-structural-load-bearing",
+  "name": "Load Bearing Property",
+  "description": "Checks if structural elements have the LoadBearing property set correctly",
+  "version": "1.0.0",
+  "status": "active",
+  "applicability": {
+    "entity": {
+      "name": "IFCBUILDINGELEMENT"
+    }
+  },
+  "requirement": {
+    "type": "property",
+    "cardinality": "required",
+    "propertySet": "Pset_WallCommon",
+    "baseName": "LoadBearing",
+    "dataType": "IFCBOOLEAN"
+  },
+  "metadata": {
+    "author": "user@example.com",
+    "created": "2025-12-21T07:31:21.740Z",
+    "updated": "2025-12-21T07:31:21.740Z",
+    "useCases": []
+  }
+}
