@@ -1,0 +1,24 @@
+{
+  "$schema": "https://idscomposer.io/schema/v1/requirement.json",
+  "id": "req-healthcare-room-number",
+  "name": "Room Numbering",
+  "description": "Ensures all spaces have a unique room number",
+  "version": "1.0.0",
+  "status": "active",
+  "applicability": {
+    "entity": {
+      "name": "IFCSPACE"
+    }
+  },
+  "requirement": {
+    "type": "attribute",
+    "cardinality": "required",
+    "baseName": "Name"
+  },
+  "metadata": {
+    "author": "user@example.com",
+    "created": "2025-12-21T07:27:29.527Z",
+    "updated": "2025-12-21T07:27:29.527Z",
+    "useCases": []
+  }
+}
