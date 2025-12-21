@@ -1,0 +1,27 @@
+{
+  "$schema": "https://idscomposer.io/schema/v1/template.json",
+  "id": "healthcare-template",
+  "name": "Healthcare Facility",
+  "description": "Complete template for healthcare building projects with compliance requirements",
+  "version": "3.0.0",
+  "status": "active",
+  "useCases": [
+    {
+      "id": "uc-healthcare-rooms",
+      "required": true
+    }
+  ],
+  "ifcVersions": [
+    "IFC4",
+    "IFC4X3_ADD2"
+  ],
+  "metadata": {
+    "applicableProjectTypes": [
+      "Templates"
+    ],
+    "estimatedRequirements": 10,
+    "author": "Healthcare BIM Alliance",
+    "created": "2025-12-21T07:27:32.092Z",
+    "updated": "2025-12-21T07:27:32.092Z"
+  }
+}
