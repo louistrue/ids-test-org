@@ -1,0 +1,23 @@
+{
+  "$schema": "https://idscomposer.io/schema/v1/requirement.json",
+  "id": "req-structural-material",
+  "name": "Structural Material Assignment",
+  "description": "Ensures structural elements have a material assigned",
+  "version": "1.0.0",
+  "status": "active",
+  "applicability": {
+    "entity": {
+      "name": "IFCELEMENT"
+    }
+  },
+  "requirement": {
+    "type": "material",
+    "cardinality": "required"
+  },
+  "metadata": {
+    "author": "user@example.com",
+    "created": "2025-12-21T07:31:23.117Z",
+    "updated": "2025-12-21T07:31:23.117Z",
+    "useCases": []
+  }
+}
