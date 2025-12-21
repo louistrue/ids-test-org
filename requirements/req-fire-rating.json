@@ -1,0 +1,26 @@
+{
+  "$schema": "https://idscomposer.io/schema/v1/requirement.json",
+  "id": "req-fire-rating",
+  "name": "Fire Rating Specification",
+  "description": "Standard requirement for fire rating values on walls and doors",
+  "version": "1.2.0",
+  "status": "active",
+  "applicability": {
+    "entity": {
+      "name": "IFCWALL"
+    }
+  },
+  "requirement": {
+    "type": "property",
+    "cardinality": "required",
+    "propertySet": "Pset_WallCommon",
+    "baseName": "FireRating",
+    "dataType": "IFCLABEL"
+  },
+  "metadata": {
+    "author": "user@example.com",
+    "created": "2025-12-21T07:30:54.353Z",
+    "updated": "2025-12-21T07:30:54.353Z",
+    "useCases": []
+  }
+}
