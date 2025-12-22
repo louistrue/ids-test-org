@@ -17,7 +17,11 @@
   "metadata": {
     "author": "user@example.com",
     "created": "2025-12-21T07:31:23.117Z",
-    "updated": "2025-12-21T07:31:23.117Z",
+    "updated": "2025-12-22T07:04:28.918Z",
     "useCases": []
+  },
+  "constraints": {
+    "type": "pattern",
+    "pattern": "kdwlhdwbwej"
   }
 }
