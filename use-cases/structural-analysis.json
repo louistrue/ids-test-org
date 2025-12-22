@@ -13,7 +13,8 @@
   ],
   "requirements": [
     "req-structural-load-bearing",
-    "req-structural-material"
+    "req-structural-material",
+    "ifcelement-property:pset-wallcommon:loadbearing"
   ],
   "documentation": {
     "purpose": "Comprehensive requirements for structural engineering analysis and coordination",
@@ -28,6 +29,6 @@
   "metadata": {
     "author": "user@example.com",
     "created": "2025-12-21T07:31:24.446Z",
-    "updated": "2025-12-21T07:31:24.446Z"
+    "updated": "2025-12-22T07:15:05.858Z"
   }
 }
