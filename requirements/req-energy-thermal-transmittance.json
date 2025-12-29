@@ -1,0 +1,26 @@
+{
+  "$schema": "https://idscomposer.io/schema/v1/requirement.json",
+  "id": "req-energy-thermal-transmittance",
+  "name": "Thermal Transmittance (U-Value)",
+  "description": "Requires U-Value for building envelope elements",
+  "version": "1.0.0",
+  "status": "active",
+  "applicability": {
+    "entity": {
+      "name": "IFCWALL"
+    }
+  },
+  "requirement": {
+    "type": "property",
+    "cardinality": "required",
+    "propertySet": "Pset_WallCommon",
+    "baseName": "ThermalTransmittance",
+    "dataType": "IFCREAL"
+  },
+  "metadata": {
+    "author": "user@example.com",
+    "created": "2025-12-29T06:19:12.223Z",
+    "updated": "2025-12-29T06:19:12.223Z",
+    "useCases": []
+  }
+}
